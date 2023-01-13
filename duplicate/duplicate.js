@@ -13,6 +13,7 @@ function removeDupes(str) {
     return result.join("")
 }
 
+
 function removeDupes2(str) {
     return Array.from(new Set(str)).join("")
 }
