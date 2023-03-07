@@ -6,9 +6,6 @@ function isStringRotated(source, test) {
     for (let i = 0; i < source.length; i++) {
         const rotate = source.slice(i, source.length) + source.slice(0, i)
 
-        console.log('source   ', source.slice(i, source.length) )
-        console.log('slice', source.slice(0, i))
-
         if(rotate === test) {
             return true
         }
