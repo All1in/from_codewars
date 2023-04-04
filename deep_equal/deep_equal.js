@@ -3,7 +3,6 @@ function deepEqual(a, b) {
         return true
     }
 
-
     if (typeof a !== typeof b) {
         return false
     }
