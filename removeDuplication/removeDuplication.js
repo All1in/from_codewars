@@ -18,7 +18,7 @@ function removeDuplication(arr) {
     }
   
     return result;
-  }
+}
   
 console.log(removeDuplication([1,2,3,2,4,6,2,6,7]))
 console.log(removeDuplication([1,2,1,2,1,1,2,2]))
